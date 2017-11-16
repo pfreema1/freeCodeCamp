@@ -15,13 +15,13 @@ gulp.task('watch', function() {
 
     browserSync.init({
         server: {
-            baseDir: "./Notes_Modules"
+            baseDir: "./noRepeatsPlease"
         }
     });
 
    
 
-    watch('./Notes_Modules/*', function() {
+    watch('./noRepeatsPlease/*', function() {
         browserSync.reload();
 
     });
