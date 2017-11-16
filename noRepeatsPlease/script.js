@@ -43,6 +43,8 @@ console.table(metaMetaArray);
 
 
 
+
+
 function swapItController(str, fixedAmount) {
   
   var tempArray = [];
